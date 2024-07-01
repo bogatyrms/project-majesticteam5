@@ -1,4 +1,4 @@
-.advertisement {
+.container-adv {
     padding: 60px 28px;
     background-color: #0c0c0c;
     background-image: linear-gradient(rgba(12, 12, 12, 0.7),
@@ -17,7 +17,7 @@
 @media screen and (min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx) {
-    .advertisement {
+    .container-adv {
         background-image: linear-gradient(rgba(12, 12, 12, 0.7),
         rgba(12, 12, 12, 0.7)), url(../img/advertisement-mob@2x.jpg);
     }
@@ -25,7 +25,7 @@ screen and (min-resolution: 2dppx) {
 
 
 @media screen and (min-width: 768px) {
-    .advertisement {
+    .container-adv {
         padding: 80px 64px;
         background-image: linear-gradient(rgba(12, 12, 12, 0.7),
         rgba(12, 12, 12, 0.7)), url(../img/advertisement-tab@1x.jpg);
@@ -37,7 +37,7 @@ screen and (min-resolution: 2dppx) {
     @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-        .advertisement {
+        .container-adv {
             background-image: linear-gradient(rgba(12, 12, 12, 0.7),
             rgba(12, 12, 12, 0.7)), url(../img/advertisement-tab@2x.jpg);
         }
@@ -46,7 +46,7 @@ screen and (min-resolution: 2dppx) {
 
 
 @media screen and (min-width: 1280px) {
-    .advertisement {
+    .container-adv {
         padding: 80px 83px;
         background-image: linear-gradient(rgba(12, 12, 12, 0.7),
         rgba(12, 12, 12, 0.7)), url(../img/advertisement-desk@1x.jpg);
@@ -58,7 +58,7 @@ screen and (min-resolution: 2dppx) {
     @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-        .advertisement {
+        .container-adv {
             background-image: linear-gradient(rgba(12, 12, 12, 0.7),
             rgba(12, 12, 12, 0.7)), url(../img/advertisement-desk@2x.jpg);
         }
@@ -112,7 +112,7 @@ screen and (min-resolution: 2dppx) {
 }
 
 @media screen and (min-width: 1280px) {
-    .advertisement {
+    .container-adv {
         display: flex;
         position: relative;
     }
