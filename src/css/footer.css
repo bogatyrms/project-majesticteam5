@@ -290,7 +290,12 @@
       top: 40px;
       left: 50%;
       transform: translate(-50%);
-      margin-bottom: 126px;
+      margin-bottom: 0px;
     }
+    
+    .footer-first-block {
+        margin-bottom: 140px;
+    }
+
   }
   
