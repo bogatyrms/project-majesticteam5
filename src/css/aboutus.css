@@ -1,0 +1,148 @@
+.aboutus{
+    margin-bottom:60px;
+}
+
+.text-block-aboutus {
+    border-radius: 30px;
+    max-width: 335px;
+    height: 446px;
+    background: #f3f3f3;
+    padding: 40px 20px 40px 20px;
+    margin-bottom: 20px;
+}
+
+
+.headline-aboutus {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 20px;
+}
+
+.ul-para-aboutus {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.para-aboutus {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+}
+
+.btn-aboutus {
+    border-radius: 16px;
+    width: 160px;
+    height: 48px;
+    background: #3350e9;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    text-align: center;
+    color: #fbfbfb;
+    border: none;
+}
+
+.btn-aboutus:hover,
+.btn-aboutus:focus {
+    background: #1f3cd4;
+}
+
+.picture-block-aboutus {
+    background: rgba(12, 12, 12, 0.2);
+    border-radius: 50px;
+    min-width: 320px;
+    height: 446px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.picture-aboutus {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-aboutus {
+    border-radius: 30px;
+}
+
+@media screen and (min-width:768px) {
+    .text-block-aboutus {
+        border-radius: 50px;
+        max-width: 704px;
+        height: 512px;
+        padding: 80px 60px 60px 60px;
+    }
+
+    .headline-aboutus {
+        font-family: "Gilroy", sans-serif;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 0.91667;
+        letter-spacing: -0.02em;
+        color: #0c0c0c;
+        margin-bottom: 40px;
+    }
+
+    .para-aboutus {
+        font-family: "Gilroy", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+        color: rgba(12, 12, 12, 0.7);
+
+    }
+
+    .picture-block-aboutus {
+        border-radius: 50px;
+        width: 704px;
+        height: 512px;
+    }
+
+        .aboutus {
+            margin-bottom: 80px;
+        }
+
+
+        .img-aboutus {
+            border-radius: 50px;
+        }
+
+}
+
+
+@media screen and (min-width:1280px) {
+
+    .text-block-aboutus {
+        max-width: 580px;
+        height: 532px;
+        padding: 80px 60px 40px 60px;
+        margin-bottom: 0;
+    }
+
+    .picture-block-aboutus {
+        width: 530px;
+        height: 532px;
+    }
+
+    .cont-2 {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        gap: 40px;
+    }
+    .aboutus {
+       margin-bottom: 100px;
+     }
+
+}
