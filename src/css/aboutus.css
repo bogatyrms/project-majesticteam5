@@ -100,7 +100,6 @@
         line-height: 1.25;
         letter-spacing: -0.02em;
         color: rgba(12, 12, 12, 0.7);
-
     }
 
     .picture-block-aboutus {
@@ -109,14 +108,14 @@
         height: 512px;
     }
 
-        .aboutus {
-            margin-bottom: 80px;
-        }
+    .aboutus {
+        margin-bottom: 80px;
+    }
 
 
-        .img-aboutus {
-            border-radius: 50px;
-        }
+    .img-aboutus {
+        border-radius: 50px;
+    }
 
 }
 
@@ -142,7 +141,7 @@
         gap: 40px;
     }
     .aboutus {
-       margin-bottom: 100px;
-     }
+        margin-bottom: 100px;
+    }
 
 }

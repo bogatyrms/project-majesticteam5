@@ -67,9 +67,7 @@ screen and (min-resolution: 2dppx) {
 
 
 
-
 .advertisement-title {
-
     font-weight: 600;
     font-size: 32px;
     line-height: 1;
@@ -81,7 +79,6 @@ screen and (min-resolution: 2dppx) {
 .adv-title-part {
     color: rgba(251, 251, 251, 0.5);
 }
-
 
 .advertisement-button {
     border: 1px solid rgba(251, 251, 251, 0.15);
@@ -95,6 +92,7 @@ screen and (min-resolution: 2dppx) {
     text-align: center;
     color: #fbfbfb;
 }
+
 .advertisement-button:hover,
 .advertisement-button:focus {
     border: 1px solid rgba(251, 251, 251, 0.15);
