@@ -1,6 +1,77 @@
-<section class="contactus">
-  <div class="container container-contact">
+<section class="contactus" id="contactus">
+  <div class="container container-contactus">
+    <h2 class="contactus-title">Contact Us</h2>
+    <div class="section-contactus">
+        <div class="contactus-form">
+          <p class="contactus-text">
+            Please use the form below to contact us. Enter your name, email, phone,
+            and message and we'll get back to you shortly.
+          </p>
+          <form class="review-form">
+            <div class="">
+              <div class="review-form-input-wrapper">
+                <input
+                  type="text"
+                  class="review-form-input"
+                  id="user-name"
+                  name="user-name"
+                  pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+"
+                  title="Olena"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="review-form-field-wrapper">
+              <div class="review-form-input-wrapper">
+                <input
+                  type="email"
+                  class="review-form-input"
+                  id="user-email"
+                  name="user-email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+            </div>
+            <div class="review-form-field-wrapper">
+              <div class="review-form-input-wrapper">
+                <input
+                  type="tel"
+                  class="review-form-input"
+                  id="user-tel"
+                  name="user-tel"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                  title="xxx-xxx-xx-xx"
+                  placeholder="Phone"
+                  required
+                />
+              </div>
+            </div>
+            <div
+              class="review-form-field-wrapper review-form-field-wrapper-comment"
+            >
+              <textarea
+                class="review-form-input review-form-comment"
+                id="user-comment"
+                name="user-comment"
+                placeholder="Comment"
+              ></textarea>
+            </div>
+          </form>
+          <button class="review-form-submit" type="submit">Send</button>
+        </div>
     
+        <div class="contactus-foto">
+          <picture>
+            <source media="(min-width:1280px)" srcset="/img/contactus-desk@1x.jpg 1x, /img/contactus-desk@2x.jpg 2x">
+            <source media="(min-width:768px)" srcset="/img/contactus-tab@1x.jpg 1x, /img/contactus-tab@2x.jpg 2x">
+            <source media="(max-width:767px)" srcset="/img/contactus-mob@1x.jpg 1x, /img/contactus-mob@2x.jpg 2x" >
+            <img class="contactus-img" src="/img/contactus-desk@1x.jpg" alt="Watches"/>
+       </picture>
+        </div>
+      </div>
+
   </div>
 </section>
 
