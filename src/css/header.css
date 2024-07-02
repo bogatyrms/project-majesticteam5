@@ -382,9 +382,9 @@
 }
 
 .is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
   transform: translate(0);
   transition: transform .35s cubic-bezier(.4, 0, .2, 1);
 }
