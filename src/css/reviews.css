@@ -95,7 +95,9 @@
         margin-bottom: 80px;
     }
 
-    .reviews-container {
+    .reviews-title {
+        font-size: 48px;
+        margin-bottom: 40px;
     }
 
     .reviews-item {
