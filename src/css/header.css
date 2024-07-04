@@ -1,4 +1,5 @@
 .header {
+  padding: 20px 0;
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
   background-color: #FBFBFB;
 }
@@ -133,6 +134,14 @@
   display: flex;
   width: 34px;
   height: 34px;
+}
+
+.mob-social-item:focus {
+  opacity: unset;
+}
+
+.mob-social-item:hover {
+  opacity: unset;
 }
 
 .mob-social-list {
@@ -360,7 +369,6 @@
 .is-open {
   opacity: 1;
   visibility: visible;
-  pointer-events: none;
   transform: translate(0);
   transition: transform .35s cubic-bezier(.4, 0, .2, 1);
 }
