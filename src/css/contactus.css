@@ -1,6 +1,6 @@
-.container-contactus {
+/* .container-contactus {
     margin-bottom: 60px;
-}
+} */
 
 .contactus-title {
     font-weight: 600;
@@ -88,9 +88,9 @@
 } */
 
 @media screen and (min-width:768px) {
-    .container-contactus {
+    /* .container-contactus {
         margin-bottom: 80px;
-    }
+    } */
 
     .contactus-title {
         font-size: 48px;
@@ -146,9 +146,9 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container-contactus {
+    /* .container-contactus {
         margin-bottom: 100px;
-    }
+    } */
 
     .contactus {
         min-width: 1280px;

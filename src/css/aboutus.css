@@ -1,6 +1,6 @@
-.aboutus{
+/* .aboutus{
     margin-bottom:60px;
-}
+} */
 
 .text-block-aboutus {
     border-radius: 30px;
@@ -90,6 +90,7 @@
         max-width: 704px;
         height: 512px;
         padding: 80px 60px 60px 60px;
+        margin-bottom: 40px;
     }
 
     .headline-aboutus {
@@ -117,9 +118,9 @@
         height: 512px;
     }
 
-    .aboutus {
+    /* .aboutus {
         margin-bottom: 80px;
-    }
+    } */
 
 
     .img-aboutus {
@@ -149,9 +150,9 @@
         flex-direction: row;
         gap: 40px;
     }
-    .aboutus {
+    /* .aboutus {
         margin-bottom: 100px;
-    }
+    } */
 
 }
 

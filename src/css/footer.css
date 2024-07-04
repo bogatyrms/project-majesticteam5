@@ -298,3 +298,21 @@
   }
 
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .footer {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    padding-top: 50px;
+  }
+}

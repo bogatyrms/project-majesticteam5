@@ -1,6 +1,6 @@
-.container-catalog {
+/* .container-catalog {
   margin-bottom: 60px;
-}
+} */
 
 .catalog-title {
   font-family: 'Gilroy', sans-serif;
@@ -107,9 +107,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container-catalog {
+  /* .container-catalog {
     margin-bottom: 80px;
-  }
+  } */
 
   .catalog-img {
     margin: 0 auto;
@@ -164,12 +164,16 @@
     text-overflow: ellipsis;
     max-width: 280px;
   }
+
+  .catalog-button-container {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .container-catalog {
     min-width: 1280px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
   }
 
   .catalog-title {
