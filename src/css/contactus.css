@@ -45,12 +45,9 @@
     margin-bottom: 18px;
 }
 
- .review-form-input:valid {
-  
- }
-.review-form-input:invalid {
-
-}
+.review-form-input:user-invalid {
+    background-color: rgb(242, 114, 114);
+    }
 
 .review-form-comment {
     height: 84px;
