@@ -62,10 +62,10 @@
     display: none;
 }
 @media (min-width: 320px) and (max-width: 375px) {
-section {
+/* section {
     padding-left: 20px;
     padding-right: 20px;
-    }
+    } */
 .container {
     max-width: 375px;
     }
