@@ -353,10 +353,10 @@
 
 }
 
-.is-open {
+/* .is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
   transform: translate(0);
   transition: transform .35s cubic-bezier(.4, 0, .2, 1);
-}
+} */
