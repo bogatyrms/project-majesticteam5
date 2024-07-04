@@ -24,11 +24,13 @@
             </div>
             <div class="review-form-field-wrapper">
               <div class="review-form-input-wrapper">
+                <label for="user-email"></label>
                 <input
                   type="email"
                   class="review-form-input"
                   id="user-email"
                   name="user-email"
+                  pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
                   placeholder="Email"
                   required
                 />
@@ -41,9 +43,9 @@
                   class="review-form-input"
                   id="user-tel"
                   name="user-tel"
-                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                  pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
                   title="xxx-xxx-xx-xx"
-                  placeholder="Phone"
+                  placeholder="+380"
                   required
                 />
               </div>
