@@ -145,3 +145,19 @@
     }
 
 }
+
+
+.img-aboutus {
+    opacity: 80%;
+}
+
+.overlay {
+    background: #0C0C0C;
+    border-radius: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .overlay {
+        border-radius: 50px;
+    }
+}

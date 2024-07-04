@@ -54,6 +54,10 @@
   top: 0;
   overflow: auto;
   z-index: 100;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .mob-menu-navigation {
@@ -350,9 +354,9 @@
 }
 
 .is-open {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
   transform: translate(0);
   transition: transform .35s cubic-bezier(.4, 0, .2, 1);
 }
