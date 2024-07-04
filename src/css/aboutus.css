@@ -38,6 +38,9 @@
 }
 
 .btn-aboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 16px;
     width: 160px;
     height: 48px;
