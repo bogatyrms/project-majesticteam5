@@ -42,8 +42,6 @@
   width: 200px;
   height: 100%;
   right: 0;
-  visibility: hidden;
-  opacity: 0;
   background-size: cover;
   background-position: center;
   background-color: #0c0c0c;
@@ -56,6 +54,10 @@
   top: 0;
   overflow: auto;
   z-index: 100;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 
@@ -363,7 +365,7 @@
 .is-open {
   opacity: 1;
   visibility: visible;
-  /* pointer-events: auto; */
+  pointer-events: auto;
   transform: translate(0);
   transition: transform .35s cubic-bezier(.4, 0, .2, 1);
 }
