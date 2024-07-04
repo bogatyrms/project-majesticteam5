@@ -61,14 +61,20 @@
 .reviews-item:nth-child(3) {
     display: none;
 }
-
-@media screen and (min-width: 375px) {
+@media (min-width: 320px) and (max-width: 375px) {
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+.container {
+    max-width: 375px;
+    }
+}
+@media screen and (max-width: 375px) {
     .container {
     max-width: 375px;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 20px;
-    padding-right: 20px;
     }
     section {
     padding-bottom: 60px;
@@ -96,12 +102,11 @@
 
 @media screen and (min-width: 768px) {
     .container {
-    max-width: 768px;
+    width: 100%;
     }
     .reviews-container {
         margin-bottom: 80px;
-    }
-
+    }   
     .reviews-title {
         font-size: 48px;
         line-height: 44px;
@@ -132,8 +137,8 @@
 
 @media screen and (min-width: 1280px) {
     .container {
-        max-width: 1280px;
-    }
+            width: 100%;
+        }
     .reviews-title {
         font-size: 48px;
         font-weight: 600;
